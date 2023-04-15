@@ -1,0 +1,199 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+header {
+    background-color: black;
+    text-align: center;
+    box-shadow: 0 0 50px #b1b1b1e5;
+}
+
+header img {
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+}
+
+body {
+    margin-bottom: 40px;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(8, 8, 8, 0.85), rgba(8, 8, 8, 0.85)), url(https://pbs.twimg.com/media/FMd76VCVcAg2a7Y.jpg:large);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+select {
+    background-color: #000000cb;
+    border: 1px solid #000000cb;
+    color: #ffffff;
+}
+
+
+
+h1 {
+    padding-top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 20px;
+    margin-bottom: 2px;
+}
+
+::placeholder {
+    color: #e0e0e0be;
+}
+
+
+input,
+textarea {
+    background-color: #000000cb;
+    border: 1px solid #000000cb;
+    color: #ffffff;
+}
+
+
+.p1 {
+    padding-bottom: 2px;
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: 100;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+p{
+    font-size: 13.5px;
+    font-family: Trebuchet MS (sans-serif);
+}
+
+
+
+
+
+
+form {
+    background-color: rgba(24, 24, 24, 0.938);
+    border-radius: 10px;
+    color: #e4e4e4ee;
+    font-size: 0.8em;
+    padding: 20px;
+    margin: 0 auto;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 120px rgba(83, 83, 83, 0.74);
+
+}
+
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+
+}
+
+label {
+    margin: 1.5rem 0;
+    display: block;
+}
+
+
+
+
+
+
+footer {
+    box-shadow: 0 0 50px #b1b1b1e5;
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+
+
+}
+
+footer img {
+    width: 55px;
+}
+
+.equipment img {
+    padding-top: 20px;
+    width: 90px;
+    height: 110px;
+    margin: auto;
+}
+
+.inline {
+    width: unset;
+    margin: 5px;
+    vertical-align: middle;
+    position: relative;
+    right: auto;
+}
+
+.radio {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+  }
+
+  fieldset{
+  border: none;
+    padding: 1rem 0;
+    border-bottom: 2px solid #b6b6b63f
+}
+
+  #submit{
+
+    background-color: #000000c2;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    
+    background-color: #ffffffd5; 
+    color: #000000; 
+  }
+
+ 
+ 
+  
+
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    
+  }
+
