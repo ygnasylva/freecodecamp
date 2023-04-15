@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/proyectoEncuesta.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Vegas Raiders: Survey</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://s.yimg.com/cv/apiv2/default/nfl/20200908/500x500/raiders_wbg.png">
+
+
+    </header>
+
+
+    <h1 id="title">Las Vegas Raiders</h1>
+    <p id="description" class="p1">Survey</p>
+
+
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">
+                <p>Name</p> <input type="text" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email" id="email-label">
+                <p>Email </p><input type="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <label for="number" id="number-label">
+                <p>Age </p><input type="number" id="number" min="12" max="120" placeholder="Enter your age" required>
+            </label>
+        </fieldset>
+        <fieldset><label for="dropdown">
+                <p>What is the current stadium of the Las Vegas Raiders?</p>
+                <select id="dropdown" required>
+                    <option value="">(select one)</option>
+                    <option value="1">Oakland Coliseum</option>
+                    <option value="2">Candlestick Park</option>
+                    <option value="3">Los Angeles Memorial Coliseum</option>
+                    <option value="4">Allegiant Stadium</option>
+                    <option value="5">Frank Youell Field</option>
+                    <option value="6">Kezar Stadium</option>
+                </select>
+            </label> </fieldset>
+        <fieldset>
+            <p>What equipment do you prefer?</p>
+            <div class="equipment">
+                <center><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Raiders_uniform_update_1-03-2017.png/250px-Raiders_uniform_update_1-03-2017.png"
+                        alt="equipment"></center>
+            </div>
+            <div class="radio">
+                <input id="blackEquipment" type="radio" name="equipment" required class="inline" value="black" required>
+                <p> Black
+                    equipment</p>
+                <input id="whiteEquipment" type="radio" name="equipment" required class="inline" value="white" required>
+                <p>White
+                    equipment</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <p>How did you meet the team?</p>
+            <textarea rows="5" cols="100" placeholder="Please type here" required></textarea>
+        </fieldset>
+
+        <label for="checkEmail">
+            I would like to receive email notifications about similar content.
+            <input type="checkbox" id="checkEmail" value="emailNotification" class="inline">
+        </label>
+        <label for="checkConditions">I accept the <a
+            href="https://w0.peakpx.com/wallpaper/1011/643/HD-wallpaper-coming-soon-text-inscription-sign-others.jpgterms">terms
+            and conditions</a>
+          <input type="checkbox" id="checkConditions" value="AcceptConditions" class="inline" required> 
+        </label>
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+    <br><br><br><br>
+
+    <footer>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/1200px-National_Football_League_logo.svg.png">
+    </footer>
+</body>
+
+</html>
